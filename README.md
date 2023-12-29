@@ -54,7 +54,7 @@ MacOSDR=0
 
 ### Starting
 
-**If you have not [changed the default passwords]([https://github.com/peasead/elastic-container/blob/main/README.md#modifying](https://github.com/saniray/Elastic-Kibana-Fleet/blob/main/README.md#modifying)) in the `.env` file, the script will exit.**
+**If you have not [changed the default passwords](https://github.com/saniray/Elastic-Kibana-Fleet/blob/main/README.md#modifying) in the `.env` file, the script will exit.**
 
 Starting will:
 - create a network called `elastic`
