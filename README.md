@@ -35,7 +35,7 @@ dnf install jq git curl
 
 ## Usage
 
-This uses default creds of `elastic:changeme` and is intended purely for security research on a local Elastic stack. [Change the password in the `.env` file](https://github.com/peasead/elastic-container/blob/main/README.md#modifying). Don't change the `elastic` username, it's a [required built-in user](https://www.elastic.co/guide/en/elasticsearch/reference/current/built-in-users.html) 
+This uses default creds of `elastic:changeme` and is intended purely for security research on a local Elastic stack. [Change the password in the `.env` file]([https://github.com/peasead/elastic-container/blob/main/README.md#modifying](https://github.com/saniray/Elastic-Kibana-Fleet/blob/main/README.md#modifying)). Don't change the `elastic` username, it's a [required built-in user](https://www.elastic.co/guide/en/elasticsearch/reference/current/built-in-users.html) 
 
 This should not be Internet exposed or used in a production environment.
 
@@ -54,7 +54,7 @@ MacOSDR=0
 
 ### Starting
 
-**If you have not [changed the default passwords](https://github.com/peasead/elastic-container/blob/main/README.md#modifying) in the `.env` file, the script will exit.**
+**If you have not [changed the default passwords]([https://github.com/peasead/elastic-container/blob/main/README.md#modifying](https://github.com/saniray/Elastic-Kibana-Fleet/blob/main/README.md#modifying)) in the `.env` file, the script will exit.**
 
 Starting will:
 - create a network called `elastic`
