@@ -28,15 +28,10 @@ Please follow the [Docker](https://www.digitalocean.com/community/tutorials/how-
 apt-get install jq git curl
 ```
 **CentOS/Fedora:**  
-Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/centos/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
+Please follow the [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) and [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) installation instructions. Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
 ```
 dnf install jq git curl
 ```
-
-**Other Linux distributions:**  
-Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
-
-Arch Linux users should install `inetutils` and change the shell script from `hostname -I` to `hostname -i`.
 
 ## Usage
 
