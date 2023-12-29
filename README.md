@@ -168,7 +168,7 @@ Staging the container images will:
 ```
 $ ./elastic-container.sh stage
 
-8.6.0: Pulling from elasticsearch/elasticsearch
+8.11.0: Pulling from elasticsearch/elasticsearch
 e7bd69ff4774: Pull complete
 d0a0f12aaf30: Pull complete
 ...
