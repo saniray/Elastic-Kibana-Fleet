@@ -23,7 +23,7 @@
 You can use the links above, the Linux package install commands below, or [Homebrew](https://brew.sh/) if your'e on MacOS
 
 **Ubuntu:**  
-Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/ubuntu/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
+Please follow the [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) and [docker-compose]((https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)) installation instructions. Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
 ```
 apt-get install jq git curl
 ```
