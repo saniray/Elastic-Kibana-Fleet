@@ -18,7 +18,7 @@
 
 ### Prerequisites: 
 
-- [Docker suite](https://docs.docker.com/get-docker/), [jq](https://stedolan.github.io/jq/download/), [curl](https://curl.se/download.html), and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+- [Docker suite](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04), [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)[jq](https://stedolan.github.io/jq/download/), [curl](https://curl.se/download.html), and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 You can use the links above, the Linux package install commands below, or [Homebrew](https://brew.sh/) if your'e on MacOS
 
