@@ -14,7 +14,7 @@
 
 ### Operating System: 
 
-- Linux or MacOS 
+- Linux
 
 ### Prerequisites: 
 
