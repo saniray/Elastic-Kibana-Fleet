@@ -1,14 +1,4 @@
-# The Elastic Container Project
-
-Stand up a 100% containerized Elastic stack, TLS secured, with Elasticsearch, Kibana, Fleet, and the Detection Engine all pre-configured, enabled and ready to use, within minutes.
-
-If you're interested in more details regarding this project and what to do once you have it running, check out our [blog post](https://www.elastic.co/security-labs/the-elastic-container-project) on the Elastic Security Labs site.
-
-:warning: This is not an Elastic created, sponsored, or maintained project. Elastic is not responsible for this projects design or implementation.
-
-[![elastic-container.png](https://i.postimg.cc/J7TpsqKJ/elastic-container.png)](https://postimg.cc/NLH6VR3f)
-
-## Steps
+# Steps
 
 1. `Git clone` this repo
 2. Install prerequisites (see below)
@@ -32,21 +22,6 @@ If you're interested in more details regarding this project and what to do once 
 
 You can use the links above, the Linux package install commands below, or [Homebrew](https://brew.sh/) if your'e on MacOS
 
-**MacOS:**
-```
-brew install jq git curl docker-compose
-brew install --cask docker
-```
-Once we have Docker installed we need to provide it with privileged access for it to function. Run the following command to open the Docker app and follow the proceeding steps.
-```
-open /Applications/Docker.app
-```
-
-1. Confirm you would like to open the app
-2. Select ok when prompted to provide Docker with privileged access
-3. Enter your password 
-4. Close or minimize the Docker app
-
 **Ubuntu:**  
 Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/ubuntu/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
 ```
@@ -62,17 +37,6 @@ dnf install jq git curl
 Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
 
 Arch Linux users should install `inetutils` and change the shell script from `hostname -I` to `hostname -i`.
-
-**Windows 10/11 with WSL 2 (Ubuntu 20.04):**  
-Make sure you are using WSL version 2. You can check the version using `wsl -l -v` in PowerShell. If the version is wrong you can change it with `wsl --set-version Ubuntu-20.04 2`
-
-```
-apt-get update
-apt-get install jq git curl
-```
-Please follow the [Docker installation instructions](https://docs.docker.com/engine/install/ubuntu/). Of specific note, you *must* install the `docker-compose-plugin`, which is different than `docker-compose`.
-
-Once the Docker suite is installed run `sudo service docker start` to start it.
 
 ## Usage
 
@@ -125,11 +89,11 @@ Populating Fleet Settings
 
 READY SET GO!
 
-Browse to https://localhost:5601
+Browse to https://<ip_address_or_localhost>:5601
 Username: elastic
 Passphrase: not-the-default!
 ```
-After a few minutes, when prompted, browse to https://localhost:5601 and log in with your configured credentials.
+After a few minutes, when prompted, browse to https://<ip_address_or_localhost>:5601 and log in with your configured credentials.
 
 ### Destroying
 
